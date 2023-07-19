@@ -1,0 +1,104 @@
+/* src/app/globals.css */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: xx-large;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  padding: 10px 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  color: rgba(70, 130, 236, 1);
+}
+
+.todoInputText {
+  padding: 10px 7px;
+  border-radius: 3px;
+  margin-right: 2px;
+  margin-left: 2px;
+  width: 100%;
+  font-size: large;
+}
+
+button {
+  padding: 10px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: large;
+}
+
+.bg-default {
+  background-color: rgba(70, 130, 236, 1);
+  border: 1px solid rgba(28, 28, 49, 1);
+  color: white;
+}
+
+.bg-danger {
+  background-color: red;
+  border: 1px solid rgba(28, 28, 49, 1);
+  color: white;
+}
+
+.todoInputButton {
+  padding: 10px 10px;
+  border-radius: 3px;
+  background-color: rgba(70, 130, 236, 1);
+  color: white;
+  border: 1px solid rgba(28, 28, 49, 1);
+  cursor: pointer;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: large;
+}
+
+.addTodoContainer {
+  margin-top: 4px;
+  margin-bottom: 17px;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.todoListContainer {
+  margin-top: 9px;
+  width: 500px;
+}
+
+.todoItem {
+  padding: 10px 4px;
+  color: rgba(70, 130, 236, 1);
+  border-radius: 3px;
+  border: 1px solid rgba(28, 28, 49, 1);
+  margin-top: 9px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todosText {
+  padding-bottom: 2px;
+  border-bottom: 1px solid;
+}
